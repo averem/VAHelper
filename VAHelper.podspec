@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "VAHelper"
-  s.version      = "1.0.0"
+  s.version      = "0.0.1"
   s.summary      = "Helper methods."
   s.homepage     = "https://github.com/alexveremeenko/VAHelper"
   s.license      = 'MIT'
