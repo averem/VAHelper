@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Veremeenko Alexandr" => "asver88@gmail.com" }
   s.source       = { :git => "https://github.com/alexveremeenko/VAHelper.git", :tag => s.version.to_s }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.source_files = 'VAHelper/*.{h,m}'
   s.requires_arc = true
 end
