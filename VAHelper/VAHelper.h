@@ -11,4 +11,14 @@
 
 @interface VAHelper : NSObject
 
++ (BOOL)isIpad;
++ (BOOL)isIphone;
+
++ (BOOL)isSystemVersionLessThanIOS7;
++ (BOOL)isSystemVersionLessThanIOS6;
+
++ (BOOL)isPortrait;
++ (BOOL)isLandscape;
++ (UIInterfaceOrientation)interfaceOrientation;
+
 @end
