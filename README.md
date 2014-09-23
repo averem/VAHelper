@@ -1,6 +1,8 @@
 VAHelper
 ========
 
+[![CI Status](http://img.shields.io/travis/alexveremeenko/VAHelper.svg?style=flat)](https://travis-ci.org/alexveremeenko/VAHelper)
+
 ### Installation with CocoaPods
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like AFNetworking in your projects. See the ["Getting Started" guide for more information](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking).
@@ -9,10 +11,10 @@ VAHelper
 
 ```ruby
 platform :ios, '6.0'
-pod "VAHelper", "~> 0.0.1"
+pod "VAHelper"
 ```
 
-### Maintainers
+### Coder
 
 - [Oleksandr Veremieienko](https://github.com/alexveremeenko)
 
