@@ -37,4 +37,7 @@
 + (NSString *)applicationDefaultUserAgent;
 + (NSDictionary *)applicationInfoDictionary;
 
++ (NSString *)stringFromData:(NSData *)data;
++ (NSData *)dataFromString:(NSString *)string;
+
 @end

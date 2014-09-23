@@ -123,4 +123,24 @@
     return [[NSBundle mainBundle] infoDictionary];
 }
 
+#pragma mark - NSData helpers
+
++ (NSString *)stringFromData:(NSData *)data
+{
+    if (!data || data.length == 0)
+        return nil;
+    
+    NSString *string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    return string;
+}
+
++ (NSData *)dataFromString:(NSString *)string
+{
+    if (!string || string.length == 0)
+        return nil;
+    
+    NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
+    return data;
+}
+
 @end
