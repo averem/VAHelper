@@ -2,6 +2,9 @@ VAHelper
 ========
 
 [![CI Status](http://img.shields.io/travis/alexveremeenko/VAHelper.svg?style=flat)](https://travis-ci.org/alexveremeenko/VAHelper)
+[![Version](https://img.shields.io/cocoapods/v/VAHelper.svg?style=flat)](http://cocoadocs.org/docsets/VAHelper)
+[![License](https://img.shields.io/cocoapods/l/VAHelper.svg?style=flat)](http://cocoadocs.org/docsets/VAHelper)
+[![Platform](https://img.shields.io/cocoapods/p/VAHelper.svg?style=flat)](http://cocoadocs.org/docsets/VAHelper)
 
 ### Installation with CocoaPods
 
@@ -18,6 +21,6 @@ pod "VAHelper"
 
 - [Oleksandr Veremieienko](https://github.com/alexveremeenko)
 
-## License
+### License
 
 VAHelper is available under the MIT license. See the LICENSE file for more info.
